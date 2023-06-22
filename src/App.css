@@ -1,0 +1,55 @@
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.game {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.game-board {
+  border: 1px solid #999;
+  display: inline-block;
+  padding: 10px;
+}
+
+.game ol {
+  padding-left: 30px;
+}
+
+.game li {
+  padding-top: 10px;
+}
+
+.game button {
+  background: #eee;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+}
